@@ -143,3 +143,11 @@ if z=='%':
 if z=='√':
     print(x*(1.0/y))
 print('----')
+print('Zadanie 10')
+def fabs(x):
+    if x<0:
+        return -x
+    else:
+        return x
+x=int(input('Wprowadź liczbę całkowitą x '))
+print('Wartość bezwględna z liczby x wynosi',fabs(x))
